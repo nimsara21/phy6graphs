@@ -61,7 +61,7 @@ ax2 = ax1.twinx()
 ax2.plot(voltage_smooth, power_smooth, color='#03aa59', linewidth=1.5, label='Power')
 ax2.scatter(voltage, power, color='#03aa59', s=30)  # Adjusted marker size
 ax2.set_ylabel('Power (W)', fontsize=14, color='#000000')
-ax2.tick_params(axis='y', labelcolor='#000000', labelsize=12)
+ax2.tick_params(axis='y', labelcolor='#03aa59', labelsize=12)
 
 # Mark and annotate Pmax, Imp, Vmp
 ax1.scatter(max_power_voltage, max_power_current, color='black', s=50, edgecolor='white', zorder=5)
